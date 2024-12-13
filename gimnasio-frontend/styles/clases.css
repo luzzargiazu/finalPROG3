@@ -1,0 +1,164 @@
+/* Contenedor general para la página de Libros */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 120px;
+  color: #40534C ; /* Azul profesional */
+  margin-bottom: 40px; /* Más espacio en el título */
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #677D6A ; /* Gris oscuro */
+  margin-bottom: 32px; /* Espaciado adicional */
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #374151; /* Gris medio */
+  margin-bottom: 16px;
+}
+
+input, select {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #D1D5DB;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #40534C ;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 14px 24px;
+  background-color: #393a3d27;
+  border-radius: 10px;
+  color: #000000;
+  border: none;
+  transition: all 0.3s ease;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #41424259;
+  transform: translateY(-2px);
+}
+
+/* Formulario y listados */
+.bg-white {
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 32px;
+  margin-bottom: 40px;
+}
+
+.space-y-8 > * + * {
+  margin-top: 32px;
+}
+
+.text-red-500 {
+  color: #EF4444;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-blue-500 {
+  color: #40534C ;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #4B5563;
+}
+
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  border-bottom: 1px solid #E5E7EB;
+  padding: 16px 0;
+}
+
+.book-item:last-child {
+  border-bottom: none;
+}
+
+.book-title {
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 4px;
+}
+
+.book-author {
+  color: #6B7280;
+  font-size: 14px;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.button-primary {
+  background-color: #3B82F6;
+  color: #FFFFFF;
+}
+
+.button-primary:hover {
+  background-color: #2563EB;
+}
+
+.button-secondary {
+  background-color: #9CA3AF;
+  color: #FFFFFF;
+}
+
+.button-secondary:hover {
+  background-color: #6B7280;
+}
+
+.button-danger {
+  background-color: #EF4444;
+  color: #FFFFFF;
+}
+
+.button-danger:hover {
+  background-color: #DC2626;
+}
+
